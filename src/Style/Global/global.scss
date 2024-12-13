@@ -1,0 +1,30 @@
+*{margin:0; padding:0; font-family: 'Alexandria';}
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+// Colors
+:root {
+    --f-c: #2C8DB4;
+    --s-c:  #FEA30A;
+    --t-c: #E9474C;
+}
+
+a{text-decoration: none;}
+ul{list-style-type: none;}
+
+.btn {
+    background-color: var(--s-c);
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    width: 7em;
+    height: 2.4em;
+    font-size: 18px;
+    font-weight: 600;
+
+    &:hover {
+        opacity: .9;
+        cursor: pointer;
+    }
+}

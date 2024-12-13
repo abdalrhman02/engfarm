@@ -1,0 +1,5 @@
+[
+    {"id":1, "img":"https://img.icons8.com/?size=100&id=cq9AgGsVsGFC&format=png&color=000000", "audio":"/Audio/door.mp3", "enW":"Door", "arW":"باب"},
+    {"id":2, "img":"https://img.icons8.com/?size=100&id=lD0Ln3ZY0pjs&format=png&color=000000", "audio":"/Audio/window.mp3", "enW":"Window", "arW":"شباك"},
+    {"id":3, "img":"https://img.icons8.com/?size=100&id=kLCDEKFEmsPz&format=png&color=000000", "audio":"/Audio/chair.mp3", "enW":"Chair", "arW":"كرسي"}
+]

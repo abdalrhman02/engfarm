@@ -1,0 +1,84 @@
+.home .hero {
+  padding: 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.home .hero .text h2 {
+  font-size: 52px;
+  max-width: 700px;
+  line-height: 1.5em;
+}
+.home .hero .text h2 b {
+  position: relative;
+}
+.home .hero .text h2 b::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: var(--s-c);
+  z-index: -1;
+}
+.home .hero .text h2 b:last-child::after {
+  background-color: var(--t-c);
+}
+.home .hero .text p {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 25px 0;
+}
+.home .hero .image img {
+  width: 530px;
+}
+.home .how-to-learn {
+  padding: 0 120px;
+  margin: 80px 0;
+}
+.home .how-to-learn .title {
+  text-align: center;
+}
+.home .how-to-learn .title h2 {
+  font-size: 28px;
+}
+.home .how-to-learn .steps {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 60px;
+}
+.home .how-to-learn .steps .step {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+.home .how-to-learn .steps .step .text {
+  padding-top: 40px;
+}
+.home .how-to-learn .steps .step .text h3 {
+  font-size: 22px;
+}
+.home .how-to-learn .steps .step .text p {
+  max-width: 500px;
+  line-height: 1.6em;
+  margin-top: 10px;
+  font-weight: 300;
+}
+.home .how-to-learn .steps .step .img .img-step1 {
+  width: 350px;
+}
+.home .how-to-learn .steps .step .img .img-step2 {
+  width: 200px;
+}
+.home .how-to-learn .steps .step .img .img-step3 {
+  width: 350px;
+}
+.home .how-to-learn .btn {
+  position: relative;
+  left: -50%;
+  transform: translateX(50%);
+  margin-top: 80px;
+}/*# sourceMappingURL=home.css.map */
