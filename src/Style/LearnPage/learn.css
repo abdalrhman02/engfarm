@@ -1,0 +1,99 @@
+.learn-test .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 180px;
+}
+.learn-test .content .vir-env {
+  margin: 50px 0;
+  width: 750px;
+  height: 420px;
+  background-color: #d4d4d4;
+}
+.learn-test .content .words-types {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 120px;
+}
+.learn-test .content .words-types a {
+  color: #fff;
+}
+.learn-test .content .words-types a .type {
+  background-color: var(--blu1);
+  border: 4px solid var(--yell);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  width: 28em;
+  height: 9em;
+  padding: 10px 30px;
+}
+.learn-test .content .words-types a .type:hover {
+  opacity: 0.9;
+}
+.learn-test .content .words-types a .type:hover img {
+  width: 85px;
+}
+.learn-test .content .words-types a .type img {
+  width: 80px;
+  margin-left: 15px;
+  transition: 0.4s;
+}
+.learn-test .content .words-types a .type .text h2 {
+  margin-bottom: 12px;
+}
+.learn-page .memorize-words {
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.learn-page .memorize-words .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.learn-page .memorize-words .words-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.learn-page .memorize-words .words-slider .arrow {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.learn-page .memorize-words .words-slider .arrow img {
+  width: 50px;
+}
+.learn-page .memorize-words .words-slider .left-arrow {
+  transform: rotate(180deg);
+}
+.learn-page .memorize-words .start-test {
+  text-align: center;
+  margin-top: 70px;
+}
+.learn-page .memorize-words .start-test button {
+  width: 10em;
+}
+.learn-page .test {
+  height: 86vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.learn-page .test .question {
+  margin-bottom: 60px;
+}
+.learn-page .test .question h1 b {
+  color: var(--yell);
+  text-decoration: underline;
+}
+.learn-page .test .choose-card {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}/*# sourceMappingURL=learn.css.map */

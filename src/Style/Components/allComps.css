@@ -3,7 +3,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 8px 120px;
-  background-color: var(--f-c);
+  background-color: var(--blu1);
 }
 header .links {
   display: flex;
@@ -31,8 +31,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 7px 0;
-  background-color: var(--t-c);
-  margin-top: 120px;
+  background-color: var(--red);
 }
 footer p {
   color: #FFF;
@@ -40,25 +39,46 @@ footer p {
 }
 
 .word-card {
-  width: 10em;
-  height: 15em;
+  width: 12em;
+  height: 18em;
   padding: 10px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-30deg, #f3f3f3, white);
-  box-shadow: 3px 3px 1px 0px var(--s-c);
+  background: linear-gradient(-30deg, #e8e8e8, white);
+  box-shadow: 3px 3px 1px 0px var(--yell);
 }
 .word-card img {
   width: 110px;
   margin-bottom: 10px;
 }
 .word-card .en-w {
-  font-size: 26px;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 .word-card .ar-w {
   font-size: 20px;
   font-weight: normal;
+  margin: 10px 0;
+}
+.word-card .sentence {
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--yell);
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  width: 7em;
+  height: 2.4em;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }/*# sourceMappingURL=allComps.css.map */
